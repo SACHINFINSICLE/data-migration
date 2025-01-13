@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -21,8 +20,13 @@ wheels/
 .installed.cfg
 *.egg
 
+# Distribution
+distribution/Header Mapping Tool
+*.spec
+
 # Virtual Environment
 venv/
+env/
 ENV/
 
 # IDE
@@ -31,9 +35,15 @@ ENV/
 *.swp
 *.swo
 
-# Project specific
-output/
-mappings/
-credentials/
-*.xlsx
-*.xls
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific
+config/*.json
+*.log

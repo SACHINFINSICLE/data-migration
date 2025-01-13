@@ -1,0 +1,3 @@
+@echo off
+echo Starting Header Mapping Tool...
+"Header Mapping Tool.exe"
